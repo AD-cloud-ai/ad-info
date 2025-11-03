@@ -1,0 +1,105 @@
+@media only screen and (min-width: 567px) and (max-width: 1020px) {
+
+    .img1 img {
+        height: 10vw;
+    }
+
+
+    .img2 img {
+        width: 50vw;
+    }
+
+
+    .img3 img {
+        height: 8.5vw;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 567px) and (max-width: 750px) {
+    .first h1 {
+        text-align: center;
+        font-size: 4.6vw;
+    }
+
+
+
+    .buttom {
+        padding: 10px 25px;
+    }
+
+    .buttom-left span p {
+        font-size: 2vw;
+    }
+
+    .buttom-right img {
+        width: 65px;
+    }
+
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 566px) {
+    .navbar .nav-item {
+        padding: 2.5vw 2.5vw;
+        font-size: 11px;
+    }
+
+    .img1 img {
+        height: 12vw;
+    }
+
+    .img2 img {
+        width: 60vw;
+    }
+
+    .img3 img {
+        height: 11vw;
+    }
+
+    .first h1 {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+
+    .second button,
+    .third button {
+        font-size: 14px;
+    }
+
+    .forth a {
+        font-size: 12px;
+    }
+
+
+    .buttom {
+        padding: 10px 25px;
+    }
+
+    .buttom-left span p {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (min-width: 485px) and (max-width: 565px) {
+    .buttom-right img {
+        width: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 485px) {
+    .buttom-right img {
+        width: 50px;
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(-25%, -10px);
+    }
+
+}
